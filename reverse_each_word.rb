@@ -1,13 +1,15 @@
-sentence1 = [""]
-def reverse_each_word(sentence1)
-  sentence1.each do |sentence1|
-    "#{sentence1}".reverse
+
+def reverse_each_word(sentence)
+  array = 
+  sentence.each do |sentence|
+    "#{sentence}".reverse
   end  
 end
-toppings = ["pickles", "mushrooms", "bacon"]
- 
-def hamburger(toppings)
-  toppings.each do |topping|
-    puts "I love #{topping} on my burgers!"
+def reverse_each_word_with_each(string)
+  original_array = string.split(" ")
+  return_array = []
+  original_array.each do|string|
+    return_array << string.reverse
   end
+  return_array.join(" ")
 end
