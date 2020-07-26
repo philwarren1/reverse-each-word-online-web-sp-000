@@ -1,7 +1,7 @@
 sentence = []
-def reverse_each_word(sentence)
-  sentence.each do |sentence|
-    puts "#{sentence}"
+def reverse_each_word(sentence1)
+  sentence.each do |sentence1|
+    puts "#{sentence1}"
   end  
 end
 toppings = ["pickles", "mushrooms", "bacon"]
